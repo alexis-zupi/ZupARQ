@@ -12,122 +12,89 @@
     <title>Nosotros</title>
 
     <script src="https://kit.fontawesome.com/54b716d450.js" crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
         
     <link rel="stylesheet" href="../css/estilos.css"/>
 </head>
 
 <body>
-    <header id="encabezado-obras">    
-        <div class="encabezado-header">
-            <div class="header-logo">
-                <img src="../imagenes/logofinal.png" alt="logo"/>
-            </div>
-            <div class="header-login">
-                <div class="login-boton">
-                    <a href="../paginas/login.html" class="texto-boton">Login</a>
+    <header class="bg-header">
+        <nav class="navbar navbar-expand-md py-0">
+            <div class="container-fluid px-0 px-3 encabezado">
+                <div class="d-flex align-items-center">
+                    <a class="navbar-brand" href="#">
+                        <img src="../imagenes/logofinal.png" alt="" width="100" height="100" class="d-inline-block">
+                    </a>
+                    <span class="d-none d-lg-block texto-zuparq">ZupARQ</span>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                    <div class="navbar-nav bg-white">
+                        <a class="nav-link mx-1 text-dark text-end" href="../index.html">Home</a>
+                        <a class="nav-link active mx-1 text-dark text-end" aria-current="page" href="./obras.html">Obras</a>
+                        <a class="nav-link mx-1 text-dark text-end" href="./disenos.html">Diseños</a>
+                        <a class="nav-link mx-1 text-dark text-end" href="./nosotros.html">Nosotros</a>
+                        <a class="nav-link mx-1 text-dark text-end" href="./contactos.html">Contactos</a>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="degrade"> 
-            <h1 class="texto-uno">ZupARQ EN EL MUNDO DEL DISEÑO Y LA ARQUITECTURA DESDE 1950</h1>
-        </div>
-        <section class="contenedor-section-encabezado-obras">
-            <div class="contenedor-info-encabezado-obras">
-                <p class="texto-parrafos">
-                    <span class="span-tardio">
-                        Somos un estudio de interiorismo y arquitectura con sede en Buenos Aires con una pasión desmedida por el diseño, la autenticidad y el compromiso con nuestros clientes. <br/>
-                        No conocemos más que la inquietud, la constancia y la complicidad de quienes han decidido depositar su confianza en nosotros nuestro alto interiorismo. Juntos hemos
-                        logrado hacer realidad sueños de gran envergadura y crear ambientes más personales. <br/>
-                        Desde hace más de siete décadas nos dedicamos a dar forma a espacios con personalidad propia y nos conocen por nuestro destacable diseño de interiores lujosos.
-                    </span>
-                    Nuestro objetivo es crear espacios que sean acogedores, funcionales y únicos, mediante una arquitectura lujosa. Para ello, trabajamos lado a lado con nuestros 
-                    clientes para lograr un proyecto que se adapte a sus necesidades y gustos particulares. Nuestro trabajo es elegante pero accesible.
-                </p>
-                </p>
-            </div>
-        </section>
-        <div class="contenedor-nav">
-            <nav class="encabezado-nav">
-                <ul>
-                    <li>
-                        <a href="../index.html">HOME</a>
-                    </li>
-                    <li>
-                        <a href="./obras.html">OBRAS</a>
-                    </li>
-                    <li>
-                        <a href="./disenos.html">DISEÑOS</a>
-                    </li>
-                    <li>
-                        <a href="./nosotros.html">NOSOTROS</a>
-                    </li>
-                    <li>
-                        <a href="./contactos.html">CONTACTOS</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
+        </nav>   
     </header>
 
-    <main>
-        <section class="contenedor-section margin-section">              
-            <div class="contenedor-info">  
+    <main class="bg-encabezado">
+        <section class="mg-section margin-top-cont">              
+            <div class="contenedor-info margin-sup margin-top-cuatro">  
                 <img src="../imagenes/nosotrosEncabezado.jpeg" 
                     alt="foto encabezado 1" 
                     class="width-img"
-                />      
-                <p class="texto-parrafos">
-                    <span>
+                /> 
+                <div>
+                    <h1 class="texto-tres">Desde 1950</h1>
+                    <h2 class="texto-cuatro">Personalización de Ambientes</h2>     
+                    <p class="texto-parrafos">
                         Hoy, retando al siglo XXI, vemos que nuestros desafíos del pasado han llegado a configurar un estilo propio reconocible como una impronta en la arquitectura y el 
-                    interiorismo de Barcelona y otras ciudades. Creaciones de las que nos sentimos orgullosos, en múltiples espacios de todo tipo, bajo el reconocimiento de un 
-                    competitivo sector que nos hace trabajar con la misma ilusión con la que iniciamos nuestra singladura.
-                    </span>
-                    Ponemos a tu disposición nuestro equipo multidisciplinar y nuestra pasión por la arquitectura y el interiorismo para materializar tus ideas y hacerlas realidad. <br/>
-                    Nuestro compromiso con la excelencia, la elegancia y la autenticidad, nos hace ser capaces de adaptarnos a tus necesidades.
-                </p> 
+                        interiorismo de Barcelona y otras ciudades. Creaciones de las que nos sentimos orgullosos, en múltiples espacios de todo tipo, bajo el reconocimiento de un 
+                        competitivo sector que nos hace trabajar con la misma ilusión con la que iniciamos nuestra singladura.
+                    </p>
+                    <div class="textos-span">
+                        <span>Único</span>
+                        <span>Identico</span>
+                        <span>Profesional</span>
+                    </div> 
+                </div>
             </div>
         </section> 
         <div class="contenedor-section">
             <h2 class="parrafo-unico">ZupARQ ES ARQUITECTURA, INTERIORISMO, DECORACIÓN, DISEÑO Y PAISAJISMO UNIDOS PARA CONSEGUIR OBRAS ÚNICAS</h2>
         </div>
-        <section class="contenedor-section margin-section margin-sup">
-            <div class="contenedor-info">           
-                <h2 class="texto-dos margin-titulos">EQUIPO</h2>
-                <p class="texto-parrafos">
-                    Nuestra historia en el diseño de interiores lujosos y proyectos de paisajismo está llena de pasión por lo que hacemos, siempre buscando innovaciones y mejoras, 
-                    sin dejar de crear nuevas maneras de como diseñar una casa.
-                    <span>
-                        Con más de 70 años en el mercado de la arquitectura lujosa, hemos aprendido mucho sobre cómo crear espacios únicos e increíbles para nuestros clientes, y estamos
-                        entusiasmados de compartir ese conocimiento contigo. <br/>
+        <section class="margin-top">
+            <div class="contenedor-info">  
+                <img src="../imagenes/nosotrosEquipoC.jpeg" 
+                    alt="Foto Equipo 2" 
+                    class="width-img"
+                /> 
+                <div>        
+                    <h3 class="texto-tres">Decoración, Diseño y Paisajismo Unidos</h3>
+                    <h4 class="texto-cuatro">Nuestro Equipo de Trabajo</h4>
+                    <p class="texto-parrafos">
                         La autenticidad es un valor fundamental para nosotros. Nuestra máxima es la excelencia en todo lo que hacemos: cada proyecto de arquitectura es único y merece
                         tiempo y atención hasta el más mínimo detalle. Nos comprometemos a crear un diseño que refleje tu personalidad y tus necesidades junto con nuestro talento, 
-                        nuestras ideas innovadoras, y la visión creativa de tus sueños. <br/>
-                        Nuestro trabajo es elegante pero accesible; auténtico pero funcional; que nunca deja de ser increíblemente creativo e inspirador.
-                    </span>
-                </p>
-                <div class="img-index-obras">
-                    <img src="../imagenes/nosotrosEquipoA.jpeg" 
-                        alt="Foto Equipo 1" 
-                        class="img-index-obrasydis margin-min"
-                    />              
-                    <img src="../imagenes/nosotrosEquipoB.jpg" 
-                        alt="Foto Equipo 2" 
-                        class="img-index-obrasydis margin-min"
-                    /> 
-                    <img src="../imagenes/nosotrosEquipoC.jpeg" 
-                        alt="Foto Equipo 3" 
-                        class="img-index-obrasydis margin-min"
-                    />               
-                    <img src="../imagenes/nosotrosEquipoD.jpg" 
-                        alt="Foto Equipo 4" 
-                        class="img-index-obrasydis margin-min"
-                    />
-                </div>           
+                        nuestras ideas innovadoras, y la visión creativa de tus sueños.    
+                    </p>
+                    <div class="textos-span">
+                        <span>Excelencia</span>
+                        <span>Perfeccion</span>
+                        <span>Delicadeza</span>
+                    </div>  
+                </div>        
             </div>
         </section>
 
-        <section class="contenedor-section margin-section margin-sup">
-            <h2 class="texto-dos margin-titulos">CUÉNTANOS LO QUE TIENES EN MENTE</h2>
+        <section class="margin-top">
+            <h2 class="texto-dos">CUÉNTANOS LO QUE TIENES EN MENTE</h2>
             <div class="contenedor-info">
                 <form action="#" class="formulario-nos">
                     <div class="formulario-nosotros">
@@ -135,7 +102,7 @@
                         <input type="text" placeholder="Ingrese su Nombre"/>
                     </div>
                     <div class="formulario-nosotros">
-                        <span class="texto-boton">Contraseña</span>
+                        <span class="texto-boton">Direccion Email</span>
                         <input type="password" placeholder="ejemplo@email.com"/>
                     </div>
                     <div class="formulario-nosotros">
@@ -146,43 +113,58 @@
                 </form>
             </div>
         </section>
-        </div>
     </main>
 
     <!--FÍN MAIN CONTENEDOR SECCIONES-->
     <!--Inicio PIE DE PÁGINA-->
 
-    <footer>
-        <div class="header-logo">
-            <img src="../imagenes/logofinal.png" alt="logo" />
+    <footer class="container-fluid d-flex align-items-end alto-footer bg-footer">
+        <div class="alto-cont-footer">
+            <div class="text-white">
+                <h5 class="card-title">Contactos</h5>
+                <p class="card-text">alexiszup@gmail.com</p>
+                <h5 class="card-title">Office</h5>
+                <p class="card-text">03353-15681732</p>
+            </div>
         </div>
-        <div class="footer-texto">
-            <h2 class="texto-vivi">VIVÍ EN LA CASA DE TUS SUEÑOS</h2>
+            
+        <div class="text-center alto-cont-footer">
+            <div class="d-flex flex-column text-white">
+                <h5 class="card-title">Síganos</h5>
+                <ul class="list-unstyled d-flex justify-content-center">
+                    <li class="mx-3">
+                        <!--Instagram-->
+                        <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-instagram-square"></i>
+                        </a>
+                    </li>
+                    <li class="mx-3">
+                        <!--Facebook-->
+                        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-facebook-square"></i>
+                        </a>    
+                    </li>
+                    <li class="mx-3">
+                        <!--Youtube-->
+                        <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-youtube-square"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="footer-ul">
-            <ul>
-                <li>
-                    <!--Instagram-->
-                    <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-brands fa-instagram-square"></i>
-                    </a>
-                </li>
-                <li>
-                    <!--Facebook-->
-                    <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-brands fa-facebook-square"></i>
-                    </a>
-                </li>
-                <li>
-                    <!--Youtube-->
-                    <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
-                        <i class="fa-brands fa-youtube-square"></i>
-                    </a>
-                </li>
-            </ul>
+            
+        <div class="text-end alto-cont-footer ps-4">
+            <div class="text-white">
+                <h5 class="card-title">Localización</h5>
+                <p class="card-text">Argentina</p>
+                <p class="card-text">Buenos Aires</p>
+                <p class="card-text">Las malvinas 955</p>
+            </div>
         </div>
     </footer>
 
     <!--FÍN PIE DE PÁGINA-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
