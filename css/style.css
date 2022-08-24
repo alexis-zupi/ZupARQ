@@ -8,6 +8,10 @@ body {
   background: linear-gradient(0deg, #002432 50%, #385563 100%);
   display: grid; }
 
+.padding-logo {
+  margin-top: 25px;
+  margin-bottom: 25px; }
+
 .margin-sup {
   margin-top: 40px; }
 
@@ -36,16 +40,11 @@ body {
 .texto-cuatro {
   font-size: 22px;
   font-weight: bold;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  margin-left: 5px;
-  color: #fff;
-  margin-right: 5px; }
+  margin: 10px 20px 20px 20px;
+  color: #fff; }
 
 .textos-span {
-  margin-top: 10px;
-  margin-left: 5px;
-  margin-right: 5px; }
+  margin: 20px 20px 10px 20px; }
   .textos-span span {
     color: #fff;
     font-size: 13px; }
@@ -53,10 +52,9 @@ body {
       margin: 0 30px 0 30px; }
 
 .boton-index {
-  margin-top: 5px;
-  margin-right: 10px;
-  color: #fff;
-  justify-self: end; }
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #fff; }
 
 .texto-dos {
   font-size: 24px;
@@ -67,30 +65,22 @@ body {
     font-size: 22px;
     font-weight: bold;
     color: black;
-    margin-top: 10px;
-    margin-left: 5px;
-    z-index: 3; }
+    margin: 30px 0 20px 20px; }
 
 .texto-tres {
   font-size: 16px;
   color: slategray;
-  margin-top: 10px;
-  margin-bottom: 0;
-  margin-left: 5px;
-  margin-right: 5px; }
+  margin: 20px 20px 0 20px; }
   .texto-tres-obras {
     font-size: 16px;
     color: grey;
-    margin-bottom: 40px;
-    margin-left: 5px; }
+    margin: 0px 0 40px 20px; }
 
 .texto-parrafos {
   font-size: 16px;
   font-weight: 400;
   color: #fff;
-  text-align: start;
-  padding: 0 5px 0 5px;
-  text-align: end; }
+  margin: 0 20px 0 20px; }
 
 .texto-zuparq {
   font-size: 18px;
@@ -98,7 +88,8 @@ body {
   font-weight: bold; }
 
 .padding {
-  padding-top: 15px; }
+  margin-top: 20px;
+  margin-bottom: 20px; }
 
 .bg-header {
   background-color: #008350; }
@@ -146,16 +137,6 @@ body {
   font-style: italic;
   width: 80%; }
 
-.plumas {
-  width: 450px;
-  height: 100px;
-  background-image: url(../imagenes/blanco-tarjetas.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  position: absolute;
-  bottom: 50px;
-  z-index: 2; }
-
 .width-img {
   width: 100%; }
   .width-img-contactos {
@@ -167,7 +148,6 @@ body {
   background-color: rgba(0, 53, 102, 0.4);
   display: grid;
   grid-template-columns: 1fr;
-  justify-items: start;
   width: 90%;
   margin-bottom: 20px;
   box-shadow: 0px 0px 25px 10px #000000de;
@@ -179,10 +159,10 @@ body {
     grid-template-columns: 1fr;
     justify-items: start;
     width: 80%;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
     margin-left: auto;
     margin-right: auto;
-    box-shadow: 0px 0px 25px 10px #000000de;
+    box-shadow: 0px 0px 25px 5px #000000de;
     transition: transform 0.5s ease-out; }
     .contenedor-info-obras:hover {
       transform: scale(1.1); }
@@ -307,8 +287,6 @@ footer {
       width: 595px; }
   .margin-top-uno {
     margin-top: 125px; }
-  .margin-top-dos {
-    margin-top: 125px; }
   .contenedor-section-obras {
     padding: 100px 30px 30px 30px;
     display: flex;
@@ -356,8 +334,7 @@ footer {
       flex-direction: row;
       flex-wrap: nowrap; }
   .texto-parrafos {
-    text-align: end;
-    background-color: rgba(0, 53, 102, 0.4); }
+    text-align: end; }
   .width-img {
     width: 500px; }
   .index-obras-disenos {
@@ -375,17 +352,19 @@ footer {
   .formulario-nosotros input, textarea {
     width: 80%; }
   .texto-tres {
-    margin-right: 5px; }
+    margin: 0 20px 0px 20px; }
   .texto-cuatro {
-    margin-right: 5px; }
+    margin: 10px 20px 20px 20px; }
   .textos-span {
-    margin-right: 5px; }
+    margin: 20px 20px 10px 20px; }
   .margin-top {
     margin-top: 50px; }
     .margin-top-uno {
-      margin-top: 125px; }
-    .margin-top-dos {
       margin-top: 125px; } }
+
+@media (min-width: 1067px) {
+  .margin-top-dos {
+    margin-top: 125px; } }
 
 @media (min-width: 1200px) {
   .encabezado-centro {
@@ -412,15 +391,15 @@ footer {
     box-shadow: none; }
     .contenedor-info-obras {
       width: 450px;
-      margin-top: 0; }
+      margin-top: 0;
+      margin-bottom: 80px; }
     .contenedor-info-contactos-b {
       width: 980px;
       display: flex;
       flex-direction: row;
       flex-wrap: nowrap; }
   .texto-parrafos {
-    text-align: end;
-    background-color: rgba(0, 53, 102, 0.4); }
+    text-align: end; }
   .width-img {
     width: 520px; }
   .index-obras-disenos {
@@ -440,11 +419,11 @@ footer {
   .formulario-nosotros input, textarea {
     width: 80%; }
   .texto-tres {
-    margin-right: 5px; }
+    margin: 20px 20px 10px 20px; }
   .texto-cuatro {
-    margin-right: 5px; }
+    margin: 10px 20px 20px 20px; }
   .textos-span {
-    margin-right: 5px; }
+    margin-right: 20px; }
   .margin-top {
     margin-top: 80px; }
     .margin-top-uno {
