@@ -1,0 +1,331 @@
+@media (max-width: 600px) {
+    .contenedor-info-obras {
+        width: 350px;
+    }
+
+    .contenedor-info-oyd-index {
+        width: 90%;
+    }
+
+    .parrafo-unico {
+        font-size: 16px;
+    }
+
+    footer {
+        justify-content: center;
+    }
+
+    .margin-top-uno {
+        margin-top: 80px;
+    }
+    
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+
+    .contenedor-info {
+        width: 540px;
+
+        &-contactos-b {
+            width: 540px;
+        }
+
+        &-obras {
+            width: 350px;
+        }
+
+        &-oyd-index {
+            width: 535px;
+        }
+    }
+
+    .margin-top-uno {
+        margin-top: 100px;
+    }
+}
+
+@media (min-width: 600px) {
+    footer {
+        justify-content: space-evenly;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+    .contenedor-info {
+        width: 600px;
+
+        &-contactos-b {
+            width: 600px;
+        }
+
+        &-obras {
+            width: 400px;
+        }
+
+        &-oyd-index {
+            width: 595px;
+        } 
+    }
+    
+    .margin-top-uno {
+        margin-top: 125px;
+    }
+
+    .contenedor-section-obras {
+        padding: 100px 30px 30px 30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 500px;
+        height: auto;
+        justify-content: space-evenly;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+    .encabezado-centro {
+        height: 650px;
+        grid-template-rows: 500px 150px;
+
+        h1 {
+            font-size: 100px; 
+        }
+    }
+
+    .contenedor-section-obras {
+        padding: 100px 30px 30px 30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 90%;
+        height: auto;
+        justify-content: space-evenly;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contenedor-info {
+        width: 920px;
+        display: flex;
+        text-align: end;
+        align-items: center;
+        @include fondo(transparent);
+        box-shadow: none;
+
+        &-obras {
+            width: 450px;
+            margin-top: 0;
+        }
+
+        &-oyd-index {
+            width: 400px;
+
+            p {
+                text-align: start;
+            }
+        }
+
+        &-contactos-b {
+            width: 920px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+        }
+    }
+
+    .texto-parrafos {
+        text-align: end; 
+    }
+
+    .width-img {
+        width: 500px;
+    }
+
+    .index-obras-disenos {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .obrasydisenos-index {
+        display: flex;
+        width: 920px;
+        margin-left: auto;
+        margin-right: auto;
+
+        & img {
+            width: 100%;
+        }
+    }
+
+    .formulario-nosotros span {
+        text-align: start;
+    }
+
+    .formulario-nosotros input, textarea {
+        width: 80%;
+    }
+
+    .texto-tres {
+        margin: 0 20px 0px 20px;
+    }
+
+    .texto-cuatro {
+        margin: 10px 20px 20px 20px;
+    }
+
+    .textos-span {
+        margin: 20px 20px 10px 20px;
+    }
+    
+    .margin-top {
+        margin-top: 50px;
+
+        &-uno {
+            margin-top: 125px;
+        }
+    }
+}
+
+@media (min-width: 1067px) {
+    .margin-top-dos {
+        margin-top: 125px;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .encabezado-centro {
+        height: 650px;
+        grid-template-rows: 550px 100px;
+
+        h1 {
+            font-size: 100px;
+        }
+    }
+
+    .contenedor-section-obras {
+        padding: 100px 30px 30px 30px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 90%;
+        height: auto;
+        justify-content: space-evenly;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contenedor-info {
+        width: 980px;
+        display: flex;
+        text-align: end;
+        align-items: center;
+        @include fondo(transparent);
+        box-shadow: none;
+
+        &-obras {
+            width: 450px;
+            margin-top: 0;
+            margin-bottom: 80px;
+        }
+
+        &-contactos-b {
+            width: 980px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+        }
+    }
+
+    .texto-parrafos {
+        text-align: end;
+    }
+
+    .width-img {
+        width: 520px;
+    }
+
+    .index-obras-disenos {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .obrasydisenos-index {
+        display: flex;
+        width: 920px;
+        margin-left: auto;
+        margin-right: auto;
+
+        & img {
+            width: 100%;
+        }
+    }
+
+    .contenedor-info-oyd-index {
+        width: 420px;
+    }
+
+    .formulario-nosotros span {
+        text-align: start;
+    }
+
+    .formulario-nosotros input, textarea {
+        width: 80%;
+    }
+
+    .texto-tres {
+        margin: 20px 20px 10px 20px;
+    }
+
+    .texto-cuatro {
+        margin: 10px 20px 20px 20px;
+    }
+
+    .textos-span {
+        margin-right: 20px;
+    }
+
+    .margin-top {
+        margin-top: 80px;
+
+        &-uno {
+            margin-top: 125px;
+        }
+
+        &-dos {
+            margin-top: 125px;
+        }
+    }
+}
+
+@media (min-width: 1567px) {
+    .margin-top-tres {
+        margin-top: 125px;
+    }
+} 
+
+@media (min-width: 1680px) {
+
+    .encabezado-centro {
+        height: 700px;
+        grid-template-rows: 600px 100px;
+    }
+
+    .contenedor-info {
+        width: 1050px;
+
+        &-contactos-b {
+            width: 1050px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+        }
+    }
+
+    .margin-top {
+        margin-top: 100px;
+    }
+}

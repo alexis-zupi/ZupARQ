@@ -1,4 +1,3 @@
-/*No se me ocurrio en que mas utilizar variables pero se comoo funcionan*/
 * {
   margin: 0;
   padding: 0;
@@ -96,9 +95,6 @@ body {
 
 .bg-header {
   background-color: #008350; }
-
-.bg-obras {
-  background-color: #ffb703; }
 
 .bg-footer {
   background-image: url(../imagenes/bg-footer.png);

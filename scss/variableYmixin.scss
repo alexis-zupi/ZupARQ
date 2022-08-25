@@ -1,0 +1,5 @@
+$texto-blanco: #fff;
+
+@mixin fondo ($fondo) {
+    background-color: $fondo;
+}
