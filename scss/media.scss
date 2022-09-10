@@ -18,6 +18,14 @@
     .margin-top-uno {
         margin-top: 80px;
     }
+
+    .parrafo-unico {
+        width: 90%;
+    }
+
+    .mapa {
+        width: auto;
+    }
     
 }
 
@@ -41,6 +49,10 @@
 
     .margin-top-uno {
         margin-top: 100px;
+    }
+
+    .mapa {
+        width: 540px;
     }
 }
 
@@ -73,7 +85,7 @@
     }
 
     .contenedor-section-obras {
-        padding: 100px 30px 30px 30px;
+        padding: 70px 30px 30px 30px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -96,7 +108,7 @@
     }
 
     .contenedor-section-obras {
-        padding: 100px 30px 30px 30px;
+        padding: 70px 30px 30px 30px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -176,7 +188,7 @@
         margin: 10px 20px 20px 20px;
     }
 
-    .textos-span {
+    .texto-span {
         margin: 20px 20px 10px 20px;
     }
     
@@ -211,7 +223,7 @@
     }
 
     .contenedor-section-obras {
-        padding: 100px 30px 30px 30px;
+        padding: 70px 30px 30px 30px;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -288,7 +300,7 @@
         margin: 10px 20px 20px 20px;
     }
 
-    .textos-span {
+    .texto-span {
         margin-right: 20px;
     }
 
