@@ -5,6 +5,10 @@
 
     .contenedor-info-oyd-index {
         width: 90%;
+
+        h3 {
+            margin: 15px;
+        }
     }
 
     .parrafo-unico {
@@ -44,6 +48,10 @@
 
         &-oyd-index {
             width: 535px;
+
+            h3 {
+                margin: 20px;
+            }
         }
     }
 
@@ -77,6 +85,10 @@
 
         &-oyd-index {
             width: 595px;
+
+            h3 {
+                margin: 20px;
+            }
         } 
     }
     
@@ -137,6 +149,10 @@
 
             p {
                 text-align: start;
+            }
+
+            h3 {
+                margin: 20px;
             }
         }
 

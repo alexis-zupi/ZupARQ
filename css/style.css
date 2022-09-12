@@ -346,6 +346,8 @@ footer {
     width: 350px; }
   .contenedor-info-oyd-index {
     width: 90%; }
+    .contenedor-info-oyd-index h3 {
+      margin: 15px; }
   .parrafo-unico {
     font-size: 16px; }
   footer {
@@ -366,6 +368,8 @@ footer {
       width: 350px; }
     .contenedor-info-oyd-index {
       width: 535px; }
+      .contenedor-info-oyd-index h3 {
+        margin: 20px; }
   .margin-top-uno {
     margin-top: 100px; }
   .mapa {
@@ -384,6 +388,8 @@ footer {
       width: 400px; }
     .contenedor-info-oyd-index {
       width: 595px; }
+      .contenedor-info-oyd-index h3 {
+        margin: 20px; }
   .margin-top-uno {
     margin-top: 125px; }
   .contenedor-section-obras {
@@ -427,6 +433,8 @@ footer {
       width: 400px; }
       .contenedor-info-oyd-index p {
         text-align: start; }
+      .contenedor-info-oyd-index h3 {
+        margin: 20px; }
     .contenedor-info-contactos-b {
       width: 920px;
       display: flex;
